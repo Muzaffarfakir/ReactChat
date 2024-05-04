@@ -6,7 +6,7 @@ import io from "socket.io-client";
 /////Function 
 function Chat() {
     ////socket.io client libraray 
-    let socket = io('http://localhost:8080',
+    let socket = io('https://reactchatback.onrender.com',
      {
         transport: ["polling"]
     });
