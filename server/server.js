@@ -5,7 +5,7 @@ let io = require("socket.io")(http);
 let port = process.env.PORT || 8080;
 let cors = require("cors");
 let config = {
-    origin: "http://localhost:3000",
+    origin: "https://reactchat-pmf5.onrender.com",
     credentials: true,
 
 }
